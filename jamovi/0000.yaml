@@ -1,0 +1,36 @@
+---
+title: MTU Classification
+name: MTUclassification
+version: 0.0.0
+jms: '1.0'
+authors:
+  - >-
+    Nishanth Gandhidoss, Raghavendran Shankar, Rahul Gowla (KNN); Chetan
+    Badgujar, Kishen Saravanan, Mitul Shah, and Rajasekar Kamaraj (RPart tree
+    and random forest)
+maintainer: >-
+  Nishanth Gandhidoss <ngandhid@mtu.edu>, Raghavendran Shankar
+  <rshanka1@mtu.edu>, Rahul Gowla <rgowla@mtu.edu>
+date: '2017-04-13'
+type: R
+description: |-
+  This package consist of Machine Learning classification models 
+    build by MTU students of PSY 5220 class of 2016-2017.
+analyses:
+  - title: K Nearest Neighbor
+    name: knn
+    ns: MTUclassification
+    menuGroup: MTUClassification
+    menuTitle: K Nearest Neighbor
+  - title: Classification using Decision Tree
+    name: DecisionTree
+    ns: MTUclassification
+    menuGroup: MTUClassification
+    menuTitle: Classification using Decision Tree
+  - title: Classification using Random Forest
+    name: RandomForest
+    ns: MTUclassification
+    menuGroup: MTUClassification
+    menuTitle: Classification using Random Forest
+
+...

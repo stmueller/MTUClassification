@@ -1,0 +1,12 @@
+Package: MTUclassification
+Type: Package
+Title: MTU Classification
+Version: 0.0.1
+Author: Nishanth Gandhidoss
+Maintainer: Nishanth Gandhidoss <ngandhid@mtu.edu>
+Description: This package consist of Machine Learning classifcation models 
+    bulid by MTU students of PSY 5220 class of 2016-2017.
+License: What license is it under?
+Encoding: UTF-8
+LazyData: true
+Imports: jmvcore (>= 0.4.0), R6, caret,rpart, class, ggplot2,ggdendro,randomForest

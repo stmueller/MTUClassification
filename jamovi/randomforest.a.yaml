@@ -1,0 +1,33 @@
+---
+name:  RandomForest
+title: Classification using Random Forest
+menuGroup: MTUClassification
+version: '1.0.0'
+jas: '1.1'
+
+options:
+    - name: data
+      type: Data
+
+    - name: dep
+      title: Dependent Variable
+      type: Variable
+
+    - name: indep
+      title: Independent Variable/s
+      type: Variables
+      
+    - name: split
+      title: Split train/test data (60-90)
+      type: Number
+      min: 60
+      max: 90
+      default: 75
+      
+    - name: ntree
+      title: Number of Tree
+      type: Number
+      min: 100
+      max: 1000
+      default: 500
+...

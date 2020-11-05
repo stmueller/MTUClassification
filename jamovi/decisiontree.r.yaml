@@ -1,0 +1,19 @@
+---
+name:  DecisionTree
+title: Classification using Decision Tree
+jrs:   '1.1'
+
+items:
+    - name:  text
+      title: Classification using Decision Tree
+      type:  Preformatted
+      
+    - name:  plot
+      title: Plot of Decision Tree
+      type:  Image
+      width: 375
+      height: 425
+      renderFun: .plot
+
+
+...

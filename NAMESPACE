@@ -1,0 +1,9 @@
+exportPattern("^[[:alpha:]]+")
+import(ggplot2)
+import(caret)
+import(class)
+import(rpart)
+import(ggdendro)
+import(randomForest)
+
+
